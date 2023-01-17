@@ -2,15 +2,12 @@
 --first-page-color :#FFFFFF;
 --text :#2E2F42;
 --main-font : Roboto,sans-serif
-
 }
-.container{
-margin-left: auto;
-margin-right: auto;
-width: 1440px;
-outline:2px tomato solid;
+html{
+margin: auto;
+width:1440px;
+height: 2590px;
 }
-
 
 
 body{
@@ -20,6 +17,7 @@ color: var(--text);
 font-size: 16px;
 letter-spacing: 0.02em;
 
+
 }
 .nav-link {
 
@@ -27,7 +25,6 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     color: #2E2F42;
     text-decoration: none;
-    margin-bottom: 212px;
 }
 
 
@@ -41,7 +38,7 @@ letter-spacing: 0.02em;
 .mail{
 
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     color: #434455;
     text-decoration: none;
 }
@@ -54,7 +51,7 @@ letter-spacing: 0.02em;
 }
 .phone{
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         color: #434455;
         text-decoration: none;
 
@@ -64,17 +61,16 @@ letter-spacing: 0.02em;
 .phone:hover ,
 .phone:focus{
     font-weight: 400;
-    
-        line-height: 24px;
-        color: #404BBF;
-        text-decoration: none;
+    line-height: 1.5;
+    color: #404BBF;
+   text-decoration: none;
 }
 
 
 .link .nav-link:hover ,
 .link .nav-link:focus{
     font-weight: 500;
-    line-height: 24px; 
+    line-height: 1.5; 
     color: #404BBF;
 }
 
@@ -85,7 +81,9 @@ color: #FFFFFF;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-      margin-top: 212px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 500px;
         margin-bottom: 48px;
 }
 
@@ -114,6 +112,7 @@ text-align: center;
 .motto-button{
         background-color: #2E2F42;
         text-align: center;
+        padding-top: 188px;
       
        
 }
@@ -130,26 +129,42 @@ text-align: center;
 
 .servises{
      
- 
+width: 264px;
+    height: 24px;
+
+
+
+
         font-weight: 500;
         font-size: 20px;
         line-height: 1.5;
         color: #2E2F42;
         letter-spacing: 0.02em;
-        margin-top:0 ;
-        margin-bottom: 0;
+        margin-bottom: 8;
     
     
 }
 .servises-description{
         line-height: 1.5;
         color: #434455;
-     
+
+
+        margin-right: 24px;
+    width: 264px;
+        height: 72px;
+        margin-bottom: 120px;
 }
 
 
 .work-team{
-   
+width: 323px;
+    height: 40px;
+text-align: center;
+text-transform: capitalize;
+margin-bottom: 72px;
+
+
+
     letter-spacing: 0.02em;
         font-weight: 700;
         font-size: 36px;
@@ -158,9 +173,18 @@ text-align: center;
 }
 .team{
     background-color: #F4F4FD;
+    text-align: center
 }
 .images{
-    background-color: white;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
+    width: 264px;
+        height: 380px;
+        left: 156px;
+        top: 1780px;
+          margin-right: 24px;
+          margin-bottom: 220px;
 }
 .workers-names{
  
@@ -169,6 +193,8 @@ text-align: center;
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: #2E2F42;
+
+                margin-bottom: 8px;
 }
 .professions{
             line-height: 1.5;        
@@ -220,12 +246,17 @@ font-family: 'Raleway';
 
 .footer{
     background-color: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px; 
+    padding-left: 156px;
 }
 .recomendation{
 
-        
+        width: 264px;
+            height: 72px;
         line-height: 24px;
         color: #E7E9FC;
+       
 }
 .list-styles{
     list-style: none;

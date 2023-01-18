@@ -3,12 +3,11 @@
 --text :#2E2F42;
 --main-font : Roboto,sans-serif
 }
-html{
-margin: auto;
-width:1440px;
-height: 2590px;
+.conteiner{
+    width: 1158px;
+    padding: 0 15px;
+    margin: auto;
 }
-
 
 body{
     background-color: var(--first-page-color);
@@ -19,8 +18,28 @@ letter-spacing: 0.02em;
 
 
 }
-.nav-link {
+.header-div{
+    display: flex;
+    align-items: center;
+}
 
+.link-header{
+    display: flex;
+    padding-left: 76px;
+    margin: auto;
+   
+}
+.li-nav{
+   margin-right:40px ;
+}
+.li-nav:last-child{
+    margin-right: 332px;
+}
+        
+.nav-link {
+display: block;
+padding-top: 21px;
+padding-bottom: 21px;
     font-weight: 500;
     line-height: 1.5;
     color: #2E2F42;
@@ -44,31 +63,33 @@ letter-spacing: 0.02em;
 }
 .mail:hover ,
 .mail:focus{
-    font-weight: 400;
-    line-height: 24px;
     color: #404BBF;
  text-decoration: none;
+
 }
 .phone{
         font-weight: 400;
         line-height: 1.5;
         color: #434455;
         text-decoration: none;
+        margin-left: 40px;
 
 }
 
+.contacts{
+    display: flex;
+}
 
 .phone:hover ,
 .phone:focus{
-    font-weight: 400;
-    line-height: 1.5;
+    
     color: #404BBF;
    text-decoration: none;
 }
 
 
-.link .nav-link:hover ,
-.link .nav-link:focus{
+.li-nav .nav-link:hover ,
+.li-nav .nav-link:focus{
     font-weight: 500;
     line-height: 1.5; 
     color: #404BBF;
@@ -90,7 +111,7 @@ color: #FFFFFF;
 .button{
 
 text-align: center;
-   min-width:169px;;
+   min-width:169px;
     display: inline-block;
     padding: 16px 32px;
         gap: 10px;
@@ -101,11 +122,11 @@ text-align: center;
      letter-spacing: 0.04em;
      color: #FFFFFF;  
         background-color: #4D5AE5;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         cursor: pointer;
         font-family: inherit;
-      margin-bottom: 324px;
+      
        
     }
 
@@ -113,6 +134,7 @@ text-align: center;
         background-color: #2E2F42;
         text-align: center;
         padding-top: 188px;
+        height: 600px;
       
        
 }
@@ -129,12 +151,6 @@ text-align: center;
 
 .servises{
      
-width: 264px;
-    height: 24px;
-
-
-
-
         font-weight: 500;
         font-size: 20px;
         line-height: 1.5;
@@ -144,21 +160,42 @@ width: 264px;
     
     
 }
+.feature-list{
+    display: flex;
+      margin-top: 120px;
+      margin-bottom: 120px;
+        align-items: center;
+}
+.feature-list .item{
+        width: 264px;
+        margin-right: 24px;
+       
+}
+
+
+
+
 .servises-description{
         line-height: 1.5;
         color: #434455;
 
-
-        margin-right: 24px;
-    width: 264px;
-        height: 72px;
-        margin-bottom: 120px;
+        
+}
+.list-ul{
+    display: flex;
+    margin-left: 156px;
+    margin-right: 156px;
+    margin-bottom: 120px;
+    
+}
+.list-ul .li-doing{
+    margin-right: 24px; 
+       align-items: center;
+       margin: auto;
 }
 
 
-.work-team{
-width: 323px;
-    height: 40px;
+.work{
 text-align: center;
 text-transform: capitalize;
 margin-bottom: 72px;
@@ -171,10 +208,43 @@ margin-bottom: 72px;
         line-height: 1.1;
         color: #2E2F42;
 }
+
+
 .team{
-    background-color: #F4F4FD;
-    text-align: center
+text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+
+
+
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    color: #2E2F42;
 }
+
+
+
+
+
+.team-section{
+    background-color: #F4F4FD;
+padding-top: 120px;
+padding-bottom: 100px;
+
+
+}
+.team-ul{
+    display: flex;
+    margin-left: 156px;
+        margin-right: 156px;
+       
+        
+}
+
+
+
 .images{
     background-color: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -184,7 +254,8 @@ margin-bottom: 72px;
         left: 156px;
         top: 1780px;
           margin-right: 24px;
-          margin-bottom: 220px;
+          text-align: center;
+
 }
 .workers-names{
  

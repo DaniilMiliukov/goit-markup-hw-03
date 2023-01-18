@@ -3,6 +3,11 @@
     --text: #2E2F42;
     --main-font: Roboto, sans-serif
 }
+.conteiner {
+    width: 1158px;
+    padding: 0 15px;
+    margin: auto;
+}
 body {
     background-color: var(--first-page-color);
     font-family: var(--main-font);
@@ -10,8 +15,28 @@ body {
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.nav-link {
+.header-div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 96px;
+}
+.link-header {
+    display: flex;
+    padding-left: 76px;
+    margin: auto;
 
+}
+.li-nav {
+    margin-right: 40px;
+}
+.li-nav:last-child {
+    margin-right: 332px;
+}
+
+.nav-link {
+    display: block;
+    padding-top: 21px;
+    padding-bottom: 21px;
     font-weight: 500;
     line-height: 1.5;
     color: #2E2F42;
@@ -28,33 +53,33 @@ body {
 .mail {
 
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     color: #434455;
     text-decoration: none;
 }
 
 .mail:hover,
 .mail:focus {
-    font-weight: 400;
-    line-height: 24px;
     color: #404BBF;
     text-decoration: none;
 }
 
 .phone {
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     color: #434455;
     text-decoration: none;
+    margin-left: 40px;
 
+}
+.contacts {
+    display: flex;
+    align-items: center;
 }
 
 
 .phone:hover,
 .phone:focus {
-    font-weight: 400;
-
-    line-height: 24px;
     color: #404BBF;
     text-decoration: none;
 }
@@ -63,27 +88,21 @@ body {
 .link .nav-link:hover,
 .link .nav-link:focus {
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     color: #404BBF;
 }
 
-.servises {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.5;
-    color: #2E2F42;
-    letter-spacing: 0.02em;
-}
 
-.servises-description {
-    line-height: 1.5;
-    color: #434455;
-}
+
 
 .portfolio-btn{
         background-color: #F4F4FD;
         border: 1px solid #E7E9FC;
         border-radius: 4px;
+margin-right: 24px;
+
+padding: 12px 24px;
+
 
         font-weight: 500;
         font-size: 16px;
@@ -97,12 +116,62 @@ body {
 .portfolio-btn:hover ,
 .portfolio-btn:focus{
     background-color: #404BBF;
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+         color: #FFFFFF;
           
 }
 
+.top-buttons{
+    display: flex;
+    margin-left: 427px;
+    margin-bottom: 72px;
+}
+.ul-link{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+margin-left: 156px;
+margin-right: 156px;
+margin-bottom: 120px;
+}
 
+
+.li-img{
+    width: 360px;
+        height: 420px;
+margin-right: 24px;
+margin-bottom: 48px;
+background: #FFFFFF;
+ 
+
+    border: 1px solid #E7E9FC;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+
+
+
+
+
+
+
+
+
+.servises {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+    margin-left: 16px;
+}
+
+.servises-description {
+    line-height: 1.5;
+    color: #434455;
+    margin-left: 16px;
+}
 
 
 
@@ -152,11 +221,18 @@ body {
 
 .footer {
     background-color: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 156px;
 }
 
 .recomendation {
+
+    width: 264px;
+    height: 72px;
     line-height: 24px;
     color: #E7E9FC;
+
 }
 
 

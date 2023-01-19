@@ -6,7 +6,7 @@
 .conteiner{
     width: 1158px;
     padding: 0 15px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 body{
@@ -15,26 +15,44 @@ font-family: var(--main-font);
 color: var(--text);
 font-size: 16px;
 letter-spacing: 0.02em;
-
-
 }
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+
+
 .header-div{
     display: flex;
     align-items: center;
+    height: 72px;
 }
 
 .link-header{
     display: flex;
-    padding-left: 76px;
     margin: auto;
+   margin: 0;
+   padding: 0;
    
 }
-.li-nav{
+.nav{
+    margin-left: 76px;
+}
+
+
+
+.li-nav:not(:last-child){
    margin-right:40px ;
 }
-.li-nav:last-child{
-    margin-right: 332px;
-}
+
         
 .nav-link {
 display: block;
@@ -78,6 +96,7 @@ padding-bottom: 21px;
 
 .contacts{
     display: flex;
+    margin-left: auto;
 }
 
 .phone:hover ,
@@ -85,6 +104,11 @@ padding-bottom: 21px;
     
     color: #404BBF;
    text-decoration: none;
+}
+
+.line-header {
+    border-bottom: 1px solid #E7E9FC;
+
 }
 
 
@@ -114,7 +138,6 @@ text-align: center;
    min-width:169px;
     display: inline-block;
     padding: 16px 32px;
-        gap: 10px;
     border-radius: 4px;
      font-weight: 500;
      line-height: 1.5;
@@ -126,6 +149,7 @@ text-align: center;
         border-radius: 4px;
         cursor: pointer;
         font-family: inherit;
+        border: none;
       
        
     }
@@ -133,8 +157,7 @@ text-align: center;
 .motto-button{
         background-color: #2E2F42;
         text-align: center;
-        padding-top: 188px;
-        height: 600px;
+        padding: 188px 0;
       
        
 }
@@ -147,6 +170,11 @@ text-align: center;
         
 }
 
+
+
+.serv-sec{
+padding: 120px 0;
+}
 
 
 .servises{
@@ -162,13 +190,11 @@ text-align: center;
 }
 .feature-list{
     display: flex;
-      margin-top: 120px;
-      margin-bottom: 120px;
-        align-items: center;
+    gap: 24px;
 }
 .feature-list .item{
         width: 264px;
-        margin-right: 24px;
+    
        
 }
 
@@ -186,19 +212,19 @@ text-align: center;
     margin-left: 156px;
     margin-right: 156px;
     margin-bottom: 120px;
+    gap: 24px;
     
 }
-.list-ul .li-doing{
-    margin-right: 24px; 
-       align-items: center;
-       margin: auto;
+
+.work-sec{
+    padding-bottom: 120px;
 }
 
 
 .work{
 text-align: center;
 text-transform: capitalize;
-margin-bottom: 72px;
+margin: 72px 0;
 
 
 
@@ -231,14 +257,13 @@ text-align: center;
 .team-section{
     background-color: #F4F4FD;
 padding-top: 120px;
-padding-bottom: 100px;
+padding-bottom: 120px;
 
 
 }
 .team-ul{
     display: flex;
-    margin-left: 156px;
-        margin-right: 156px;
+   gap: 24px;
        
         
 }
@@ -250,10 +275,6 @@ padding-bottom: 100px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 0px 0px 4px 4px;
     width: 264px;
-        height: 380px;
-        left: 156px;
-        top: 1780px;
-          margin-right: 24px;
           text-align: center;
 
 }
@@ -264,10 +285,11 @@ padding-bottom: 100px;
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: #2E2F42;
-
+margin-top: 32px;
                 margin-bottom: 8px;
 }
 .professions{
+    margin-bottom: 32px;
             line-height: 1.5;        
             color: #434455;
       
@@ -322,14 +344,15 @@ font-family: 'Raleway';
     padding-left: 156px;
 }
 .recomendation{
-
+     margin-top: 16px;
         width: 264px;
-            height: 72px;
-        line-height: 24px;
+        line-height: 1.5;
         color: #E7E9FC;
        
 }
 .list-styles{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
